@@ -1,0 +1,219 @@
+:root :root {
+  --White:#ffffff;
+  --stone100:#f3e6d8;
+  --stone150:	#e4ded8;
+  --stone600:#5f574e;
+  --stone900:#302d2c;
+  --brown800:#854632;
+  --rose800:#7b284f;
+  --rose50:#fff5fa;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --medium2: 600;
+  --bold: 700;
+  --extra-bold:800;
+  --size-xxs: 8px;
+  --size-xs: 10px;
+  --size-xs-sm: 11px;
+  --size-sm: 12px;
+  --size-xm: 14px;
+  --size-md: 16px;
+  --size-xmd: 18px;
+  --size-lg: 20px;
+  --size-xlg: 24px;
+  --size-xxlg: 26px;
+  --fontFamily: "Young Serif", sans-serif;
+}
+@media screen and (max-width: 375px) {
+  :root :root {
+    --size-xm: 12px;
+    --size-xlg:20px;
+  }
+}
+
+/*--------------------reset--------------------------*/
+a,
+abbr,
+acronym,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+center,
+canvas,
+caption,
+cite,
+code,
+command,
+datalist,
+dd,
+del,
+details,
+dfn,
+dl,
+div,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+keygen,
+label,
+legend,
+li,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+s,
+samp,
+section,
+small,
+span,
+source,
+strong,
+sub,
+sup,
+tfoot,
+thead,
+u,
+ul,
+var {
+  background: transparent;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: top;
+}
+
+a {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+  border: 0;
+}
+
+embed {
+  vertical-align: top;
+}
+
+article,
+aside,
+audio,
+canvas,
+command,
+datalist,
+details,
+embed,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+keygen,
+meter,
+nav,
+output,
+progress,
+section,
+source,
+video {
+  display: block;
+}
+
+mark,
+rp,
+rt,
+ruby,
+summary,
+time {
+  display: inline;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #595959;
+  outline: none;
+  -moz-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+strong {
+  font-weight: var(--bold);
+}
+
+em {
+  font-style: italic;
+}
+
+ol {
+  list-style: decimal;
+}
+
+.t-center {
+  text-align: center;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--fontFamily);
+  font-weight: var(--regular);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=main.css.map */
