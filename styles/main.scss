@@ -36,6 +36,7 @@ main {
   &__image {
     width: 100%;
     max-width: 100%;
+    border-radius: 1rem;
   }
   &__title {
     // font-size: calc(1.3rem + 1.5vw);
@@ -145,6 +146,9 @@ hr {
     padding: 0;
     margin-top: 0;
     border-radius: 0;
+    &__image{
+      border-radius: 0;
+    }
     article {
       padding: 0 1.8rem 1.8rem;
     }
