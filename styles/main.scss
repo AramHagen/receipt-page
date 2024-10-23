@@ -1,0 +1,25 @@
+@use "./variables.scss" as *;
+@use "./reset.scss" as *;
+
+body {
+  font-size: 16px;
+  font-family: var(--fontFamily);
+  font-weight: var(--regular);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
